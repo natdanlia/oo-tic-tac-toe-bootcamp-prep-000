@@ -111,8 +111,7 @@ class TicTacToe
       @board[combo[0]]
     end
   end
-
->>>>>>> aaa2b9bd4a427a36ff0667f06b81bc46e3604861
+  
   def play
     turn until over?
     puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
